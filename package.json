@@ -13,10 +13,24 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "precommit": "pretty-quick --staged"
+    "lint": "eslint src/.",
+    "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
+    "jest": "yarn test",
+    "coverage": "npm run test -- --coverage"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm run lint"
+    }
+  },
+  "lint-staged": {
+    "*.+(js|jsx)": "eslint --fix",
+    "*.+(json|css|md)": "prettier --write",
+    "*.js": "eslint --cache --fix"
   },
   "eslintConfig": {
     "extends": [
