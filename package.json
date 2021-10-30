@@ -1,0 +1,19 @@
+{
+  "name": "telegramclient",
+  "version": "1.0.0",
+  "description": "Client based on Telegram API",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/not-only-yours/TelegramClient.git"
+  },
+  "author": "not-only-yours",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/not-only-yours/TelegramClient/issues"
+  },
+  "homepage": "https://github.com/not-only-yours/TelegramClient#readme"
+}
