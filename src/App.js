@@ -2,6 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const { Client } = require('tdl')
+  const { TDLib } = require('tdl-tdlib-ffi')
+  const {API_ID, API_HASH, BOT_TOKEN} = require('./config.js');
+
 
   return (
     <div className="App">

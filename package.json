@@ -9,7 +9,13 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "^3.4.4",
-    "web-vitals": "^1.0.1"
+    "tdl": "^7.0.0",
+    "tdl-tdlib-addon": "^1.0.1",
+    "web-vitals": "^1.0.1",
+    "husky": "^7.0.4",
+    "lint-staged": "^11.2.6",
+    "prettier": "^2.4.1",
+    "tdlib-types": "^0.1001007.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -51,10 +57,6 @@
     ]
   },
   "devDependencies": {
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "husky": "^7.0.4",
-    "lint-staged": "^11.2.6",
-    "prettier": "^2.4.1"
+
   }
 }
