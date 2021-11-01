@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import React  from 'react';
 
 function App() {
   const { Client } = require('tdl')
-  const { TDLib } = require('tdl-tdlib-ffi')
   const {API_ID, API_HASH, BOT_TOKEN} = require('./config.js');
 
 
